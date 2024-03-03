@@ -8,7 +8,9 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "prepare": "npx husky install"
+    "lint": "echo \"not implemented\"",
+    "lint:fix": "yarn lint --fix",
+    "prepare": "husky"
   },
   "dependencies": {
     "nuxt": "^3.10.3",
